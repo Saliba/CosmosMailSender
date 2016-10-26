@@ -1,0 +1,29 @@
+{
+  "name": "cosmosmailsender",
+  "version": "1.0.0",
+  "description": "Send email to prod-notify about the new releases",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saliba/CosmosMailSender.git"
+  },
+  "keywords": [
+    "cosmos",
+    "travix"
+  ],
+  "author": "Lucas Saliba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saliba/CosmosMailSender/issues"
+  },
+  "homepage": "https://github.com/Saliba/CosmosMailSender#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemailer": "^2.6.4",
+    "request": "^2.76.0"
+  }
+}
